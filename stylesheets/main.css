@@ -1,0 +1,99 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+header {
+  background: #b30000;
+  color: white;
+  height: 75px;
+  padding: 0 25px;
+}
+
+header h1 {
+  float: left;
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+header nav {
+  float: right;
+  margin-top: 30px;
+}
+
+header a {
+  color: white;
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+header a:hover {
+  color: orange;
+}
+
+nav.menu {
+  background: #333333;
+  height: 55px;
+  padding: 0 20px;
+}
+
+nav.menu a {
+  display: inline;
+  float: right;
+  text-decoration: underline;
+  color: white;
+  padding: 17px 10px;
+}
+
+nav.menu a:hover {
+  color: orange;
+}
+
+div.container {
+  max-width: 2560px;
+  display: flex;
+  padding: 0 20px 0 0;
+}
+
+div.column-left {
+  width: 79%;
+  padding: 50px;
+  float: left;
+}
+
+div.column-left img {
+  width: 100%;
+}
+
+div.column-left h2 {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 20px;
+}
+
+div.column-left p {
+  padding: 0 20px;
+}
+
+div.column-right {
+  width: 21%;
+  padding: 50px 0 0 0;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+div.column-right img {
+  width: 100%;
+  padding: 10px 0 50px 0;
+}
+
+footer {
+  padding: 20px;
+}
+
+footer p {
+  background: #333333;
+  padding: 30px;
+  color: white;
+}
